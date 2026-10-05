@@ -1,0 +1,15 @@
+# Gradle / build artifacts
+.gradle/
+app/build/
+build/
+local.properties
+*.apk
+
+# IDE / OS
+.DS_Store
+.idea/
+.vscode/
+
+# Local configuration / temporary files
+AGENTS.local.md
+*Taskfile*
