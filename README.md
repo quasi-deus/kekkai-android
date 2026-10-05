@@ -24,3 +24,7 @@ Builds and passes `compileDebugKotlin`/`lint`/`assembleDebug`. Known gap: no
 onboarding/settings UI yet — the git remote URL is read from an undocumented
 SharedPreferences key and sync is silently skipped if unset. Not yet tested
 against a real device, OpenKeychain install, or pass store.
+
+## License
+
+GPLv3 — see [LICENSE](LICENSE).
