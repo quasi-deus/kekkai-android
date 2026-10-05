@@ -12,10 +12,11 @@ Architecture:
   focused. Clipboard copy (marked sensitive, auto-cleared) is the fallback for
   when the app is opened standalone instead of through Autofill.
 
-This mirrors `desktop/`'s shape: a thin, platform-native connector against a
-shared repository contract (see `desktop/internal/repository`), not a shared
-runtime or RPC backend — git already handles distributing the store between
-devices, so no daemon or network protocol is needed between frontends.
+This mirrors sibling project **kekkai-desktop**'s shape: a thin, platform-
+native connector against the same repository contract (its
+`internal/repository`), not a shared runtime or RPC backend — git already
+handles distributing the store between devices, so no daemon or network
+protocol is needed between frontends.
 
 ## Status
 
